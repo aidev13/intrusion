@@ -1,0 +1,10 @@
+.btn_container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.492);
+  cursor: pointer;
+}
