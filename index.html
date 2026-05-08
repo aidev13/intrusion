@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liebherr Intrusion</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <div class="header">
+        <div id="arming_controls"> 
+            <button id="arm"> Arm </button>
+            <button id="disarm"> Disarm </button>
+        </div>
+        <div id="timer"></div>
+    </div>
     <div class="btn_container">
-        <div><button class="btn" id="dc1"> DC 1 </button></div>
-        <div><button class="btn" id="dc2"> DC 2 </button></div>
-        <div><button class="btn" id="dc3"> DC 3 </button></div>
+        <div><button class="btn" id="zone1"> Zone 1 </button></div>
+        <div><button class="btn" id="zone2">Zone 2 </button></div>
+        <div><button class="btn" id="zone3"> Zone 3 </button></div>
     </div>
 </body>
 <script src="dc_logic.js"></script>
-</html> 
+
+</html>

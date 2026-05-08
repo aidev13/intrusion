@@ -4,7 +4,21 @@
   justify-content: center;
 }
 
+.btn {
+    background-color: lightblue;
+}
+
 .btn:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.492);
   cursor: pointer;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 15px;
+    padding: 30px;
+}
+
